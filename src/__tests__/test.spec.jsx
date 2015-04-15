@@ -2,7 +2,6 @@
 
 var React = require('react/addons');
 
-jest.dontMock('../test.jsx');
 var Test = require('../test.jsx');
 
 describe('test 1', function () {

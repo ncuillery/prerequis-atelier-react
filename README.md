@@ -51,12 +51,12 @@ npm test
 Pour valider ce point, vous ne devez avoir aucune erreur dans la sortie !
 ``` sh
 > atelier-react-prerequis@0.1.0 test /home/florent/zenika/atelier-react-prerequis
-> jest
+> node node_modules/karma/bin/karma start
 
-Using Jest CLI v0.4.0
- PASS  src/__tests__/test.spec.js (1.091s)
-1 test passed (1 total)
-Run time: 1.993s
+INFO [karma]: Karma v0.12.31 server started at http://localhost:9876/
+INFO [launcher]: Starting browser PhantomJS
+INFO [PhantomJS 1.9.8 (Linux)]: Connected on socket 7qhopRi1wFpBZBMoS16N with id 16250939
+PhantomJS 1.9.8 (Linux): Executed 2 of 2 SUCCESS (0.001 secs / 0.006 secs)
 ```
 
 ### Tips
@@ -64,4 +64,4 @@ Pour plus de facilité, vous pouvez installer gulp de manière globale :
 ``` sh
 npm i -g gulp
 ```
-Comme ça, plus besoin d'aller le chercher dans les `node_modues` :bowtie:
+Comme ça, plus besoin d'aller le chercher dans les `node_modules` :bowtie:
